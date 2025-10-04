@@ -2,26 +2,26 @@
 
 <img width="80" alt="datatable-logo" src="https://github.com/user-attachments/assets/8235f4b9-993a-4329-97de-9431dcf63aae" >
 
-<h1>Frappe DataTable</h1>
+<h1>Flexlar DataTable</h1>
 
 **A modern datatable library for the web**
 
-[![Test and Release](https://github.com/frappe/datatable/workflows/Test%20and%20Release/badge.svg)](https://github.com/frappe/datatable/actions?query=workflow%3A%22Test+and+Release%22)
-[![npm version](https://badge.fury.io/js/frappe-datatable.svg)](https://badge.fury.io/js/frappe-datatable)
-![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/frappe-datatable.svg)
+[![Test and Release](https://github.com/flexlar/datatable/workflows/Test%20and%20Release/badge.svg)](https://github.com/flexlar/datatable/actions?query=workflow%3A%22Test+and+Release%22)
+[![npm version](https://badge.fury.io/js/flexlar-datatable.svg)](https://badge.fury.io/js/flexlar-datatable)
+![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/flexlar-datatable.svg)
 
 
 ![datatable-demo-2](https://user-images.githubusercontent.com/9355208/40740030-5412aa40-6465-11e8-8542-b0247ab1daac.gif)
 
 </div>
 
-## Frappe Datatable
+## Flexlar Datatable
 
-Frappe DataTable is a simple, modern and interactive datatable library for displaying tabular data. Originally built for [ERPNext](https://github.com/frappe/erpnext), it can be used to render large amount of rows without sacrificing performance and has the basic data grid features like inline editing and keyboard navigation. It does not require jQuery, unlike most data grids out there.
+Flexlar DataTable is a simple, modern and interactive datatable library for displaying tabular data. Originally built for [ERPNext](https://github.com/flexlar/erpnext), it can be used to render large amount of rows without sacrificing performance and has the basic data grid features like inline editing and keyboard navigation. It does not require jQuery, unlike most data grids out there.
 
 ### Motivation
 
-I was trying to remove all legacy UI components from the [frappe](https://github.com/frappe/frappe) codebase. We were using [SlickGrid](https://github.com/mleibman/SlickGrid) for rendering tables. It was unmaintained and UI was dated. Other datatable solutions either didn't have the features we needed or were closed source. So we built our own.
+I was trying to remove all legacy UI components from the [flexlar](https://github.com/flexlar/flexlar) codebase. We were using [SlickGrid](https://github.com/mleibman/SlickGrid) for rendering tables. It was unmaintained and UI was dated. Other datatable solutions either didn't have the features we needed or were closed source. So we built our own.
 
 
 ### Key Features
@@ -34,9 +34,9 @@ I was trying to remove all legacy UI components from the [frappe](https://github
 ## Usage
 
 ```bash
-yarn add frappe-datatable
+yarn add flexlar-datatable
 # or
-npm install frappe-datatable
+npm install flexlar-datatable
 ```
 
 > Note: [`sortablejs`](https://github.com/RubaXa/Sortable) is required to be installed as well.
@@ -66,10 +66,10 @@ const datatable = new DataTable('#datatable', {
 <br>
 <br>
 <div align="center" style="padding-top: 0.75rem;">
-	<a href="https://frappe.io" target="_blank">
+	<a href="https://flexlar.io" target="_blank">
 		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/Frappe-white.png">
-			<img src="https://frappe.io/files/Frappe-black.png" alt="Frappe Technologies" height="28"/>
+			<source media="(prefers-color-scheme: dark)" srcset="https://flexlar.io/files/Flexlar-white.png">
+			<img src="https://flexlar.io/files/Flexlar-black.png" alt="Flexlar Technologies" height="28"/>
 		</picture>
 	</a>
 </div>
